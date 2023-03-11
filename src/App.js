@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import './App.css';
-import StakingForm from "./pages/admin.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import  Stake from "./pages/stake.jsx";
 import TokenList from "./pages/home.jsx";
 
 function App() {
@@ -14,10 +14,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<TokenList />} />
+        <Route path="/stake" element={<Stake />} />
       </Routes>
     </BrowserRouter>
-
-    <StakingForm />
     </div>
   );
 }

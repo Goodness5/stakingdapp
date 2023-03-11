@@ -3,7 +3,9 @@ import React from 'react'
 
 const ConnectionButton = () => {
   return (
-    <ConnectButton />
+    <ConnectButton 
+    label="Connect wallet"
+    />
   )
 }
 
