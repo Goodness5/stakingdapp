@@ -56,16 +56,28 @@ const Stake = () => {
   };
 
   return (
-    <div >
+    <div>
       <div className="bg-black text-white">
         <h2>Stake</h2>
         <div>
           <label htmlFor="token">Token:</label>
-          <input type="text" id="token" value={token} className="text-black" onChange={handleTokenChange} />
+          <input
+            type="text"
+            id="token"
+            value={token}
+            className="text-black"
+            onChange={handleTokenChange}
+          />
         </div>
         <div>
           <label htmlFor="amount">Amount:</label>
-          <input type="text" id="amount" value={amount} className="text-black" onChange={handleAmountChange} />
+          <input
+            type="text"
+            id="amount"
+            value={amount}
+            className="text-black"
+            onChange={handleAmountChange}
+          />
         </div>
       </div>
     </div>
